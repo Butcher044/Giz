@@ -2,7 +2,7 @@ import socket, cv2, pickle, struct
 
 # create socket
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host_ip = 'yourIP' #IP Address of Host to be Entered
+host_ip = '172.20.10.4' #IP Address of Host to be Entered
 port = 9999
 client_socket.connect((host_ip,port))
 data = b""
